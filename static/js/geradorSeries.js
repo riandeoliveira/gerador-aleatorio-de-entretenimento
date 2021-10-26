@@ -1,14 +1,3 @@
-// PARA FAZER - 01/09/2021
-// Add novos filmes
-// Mecanismo para impedir a roleta de imagens (para pessoas com epilepsia)
-// Adicionar lógica de sorteio aleatório
-// Criar variáveis adicionais para os números soltos
-// Deixar responsivo
-// Add outras animações nos botões
-// Identar o código
-// Deixar o código mais limpo
-// Distribuir códigos entre outras funções
-
 const geraSerie = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR uma série aleatória?");
