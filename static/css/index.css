@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(90deg, #18EC28, #83D731, #FFFE1D, #DB832B, #F4150D, #DC388E, #F616F3, #8D19FF, #1A5DF2, #3387DF, #33DDDD, #31DD87);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 150px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.container-titulo {
+    align-items: center;
+    display: flex;
+    height: 135px;
+    justify-content: center;
+}
+
+.logo {
+    height: 125px;
+    width: 125px;
+}
+
+.site-titulo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    padding: 10px;
+    transition-duration: 1s;
+}
+
+.site-subtitulo {
+    text-align: center;
+}
+
+nav {
+    padding: 10px;
+}
+
+.nav-links {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    transition-duration: 0.4s;
+}
+
+.nav-links:hover {
+    background-color: #555;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 749px;
+    padding: 1px;
+    width: 636px;
+}
+
+section {
+    position: relative;
+    text-align: center;
+}
+
+.links-geradores {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    bottom: 5%;
+    box-shadow: 0px 5px 10px black;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 20px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    padding: 12px 24px;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100px;
+}
+
+.links-geradores:hover {
+    background-color: #555;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+footer {
+    padding: 5px;
+    text-align: center;
+}
+
+.footer-paragrafo {
+    font-size: 0.8em;
+}
+
+.link-externo {
+    color: white;
+}
+
+.link-externo:hover {
+    text-decoration: underline;
+}
