@@ -19,18 +19,15 @@ Programa que sorteia aleatoriamente uma série, anime ou filme para pessoas que 
 ## Pré-requisitos
 
 * Navegador (ex: [Google Chrome](https://www.google.com/intl/pt-BR/chrome/))
+* Descompactador de arquivos (ex: [WinRAR](https://www.win-rar.com/start.html?&L=0))
 
-## Como usar
+## Atualizado em
 
-lorem ipsum
+26 de out. de 2021
 
 ## Desenvolvido em
 
-3 de fev. de 2021
-
-## Versão atual
-
-2.0.0
+30 de ago. de 2021
 
 <p align="center"><strong>Novas features em Breve!<strong></p>
 
