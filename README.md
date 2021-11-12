@@ -6,7 +6,9 @@ Programa que sorteia aleatoriamente uma série, anime ou filme para pessoas que 
 
 ## Layout
 
-![Imagem demonstrativa do projeto](demo/layout.png)
+<div align="center">
+<img src="demo/layout.png" alt="Imagem demonstrativa"></img>
+</div>
 
 ## Tecnologias utilizadas
 
