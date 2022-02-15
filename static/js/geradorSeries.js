@@ -6,6 +6,7 @@ const geraSerie = () => {
         "Agentes da S.H.I.E.L.D. (2013)",
         "Almost Human (2013)",
         "Altered Carbon (2018)",
+        "Arcane (2021)",
         "Arquivo X (1993)",
         "Awake (2012)",
         "Battlestar Galactica (2004)",
