@@ -81,6 +81,7 @@ const geraAnime = () => {
         "Hunter x Hunter (2011)",
         "Imouto Sae Ireba li (2017)",
         "In Spectre (2020)",
+        "Interviews with Monster Girls (2017)",
         "Inu x Boku SS (2012)",
         "Irozuku Sekai no Ashita Kara (2018)",
         "Ishuzoku Reviewers (2018)",
