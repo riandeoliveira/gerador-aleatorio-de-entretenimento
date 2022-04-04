@@ -2,6 +2,8 @@ const geraAnime = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um anime aleatório?");
 
+    // Animes: 11/182
+
     const animes = [
         "86: Eighty Six (2021)",
         "Absolute Duo (2015)",

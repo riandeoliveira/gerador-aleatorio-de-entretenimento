@@ -1,7 +1,9 @@
 const geraSerie = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR uma série aleatória?");
-    // series = 55
+
+    // Série: 0/56
+
     const series = [
         "Agentes da S.H.I.E.L.D. (2013)",
         "Almost Human (2013)",
@@ -60,6 +62,8 @@ const geraSerie = () => {
         "Westworld (2016)",
         "Zoo (2015)"
     ];
+
+    console.log(series.length);
 
     if (resposta) {
         let numAleatorio = Math.floor(Math.random() * series.length);
