@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 18/200
+    // Filmes: 24/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -23,15 +23,15 @@ const geraFilme = () => {
         "A Lagoa Azul (1980)",
         "A Máquina do Tempo (2002)",
         "A Menina que Roubava Livros (2013)",
-        "A Nação do Medo (1994)",
-        "A Noite é Delas (2017)",
+        // "A Nação do Medo (1994)",
+        // "A Noite é Delas (2017)",
         "A Outra Terra (2011)",
         "A Possessão de Deborah Logan (2014)",
         "A Queda! As Últimas Horas de Hitler (2004)",
         "A Senha - Swordfish (2001)",
         "A Serbian Film - Terror sem Limites (2010)",
         "A Teoria do Caos (2008)",
-        "A Vastidão da Noite (2019)",
+        // "A Vastidão da Noite (2019)",
         "A Viagem de Chihiro (2003)",
         "A Vida é Bela (1997)",
         "A Vila (2004)",
@@ -105,10 +105,10 @@ const geraFilme = () => {
         "Hora do Recreio - O Filme (2001)",
         "Jogos de Guerra (1983)",
         "Jojo Rabbit (2019)",
-        "Kung-Fu Futebol Clube (2001)",
+        // "Kung-Fu Futebol Clube (2001)",
         "Kung-Fusão (2004)",
         "Laranja Mecânica (1971)",
-        "Lembranças de Outra Vida (1995)",
+        // "Lembranças de Outra Vida (1995)",
         "Loucuras na Idade Média (2001)",
         "Lucas - Um Intruso no Formigueiro (2006)",
         "Mamãe, Virei Um Peixe (2000)",
@@ -152,7 +152,7 @@ const geraFilme = () => {
         // "O Universo no Olhar (2014)",
         "O VelociPastor (2018)",
         "Os Estagiários (2013)",
-        "Os Oito Odiados (2015)",
+        // "Os Oito Odiados (2015)",
         "Os Viajantes do Tempo (2001)",
         "País da Violência (2018)",
         "Pânico na Neve (2010)",
