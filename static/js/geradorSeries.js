@@ -2,7 +2,7 @@ const geraSerie = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR uma série aleatória?");
 
-    // Série: 0/56
+    // Série: 0/57
 
     const series = [
         "Agentes da S.H.I.E.L.D. (2013)",
@@ -42,6 +42,7 @@ const geraSerie = () => {
         "Power Rangers - Tempestade Ninja (2003)",
         "Scorpion (2014)",
         "Silicon Valley (2014)",
+        "South Park",
         "Super Mario (1989)",
         "Terra Nova (2011)",
         "The 100 (2014)",

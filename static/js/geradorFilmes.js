@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 24/200
+    // Filmes: 30/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -16,7 +16,7 @@ const geraFilme = () => {
         "A Cabana (2017)",
         "A Casa do Lago (2006)",
         // "A Chave Mágica (1995)",
-        "A Cinco Passos de Você (2019)",
+        // "A Cinco Passos de Você (2019)",
         "A Garota no Trem (2016)",
         "A Garota que Conquistou o Tempo (2016)",
         "A Grande Ilusão (2006)",
@@ -56,7 +56,7 @@ const geraFilme = () => {
         "Christine, O Carro Assassino (1983)",
         "Cidadão Kane (1941)",
         "Cidade de Deus (2002)",
-        "Cinco Centímetros por Segundo (2007)",
+        // "Cinco Centímetros por Segundo (2007)",
         // "Clube da Luta (1999)",
         "Coherence (2014)",
         "Construindo uma Carreira (1991)",
@@ -92,7 +92,7 @@ const geraFilme = () => {
         "Era Uma Vez no Oeste (1968)",
         "Feitiço do Tempo (1993)",
         // "Filhos da Esperança (2006)",
-        "Fogo no Céu (1993)",
+        // "Fogo no Céu (1993)",
         "Footloose - Ritmo Louco (1984)",
         "Galáxia do Terror (1981)",
         "Gantz - O (2016)",
@@ -104,7 +104,7 @@ const geraFilme = () => {
         "Glória Feita de Sangue (1957)",
         "Hora do Recreio - O Filme (2001)",
         "Jogos de Guerra (1983)",
-        "Jojo Rabbit (2019)",
+        // "Jojo Rabbit (2019)",
         // "Kung-Fu Futebol Clube (2001)",
         "Kung-Fusão (2004)",
         "Laranja Mecânica (1971)",
@@ -132,7 +132,7 @@ const geraFilme = () => {
         "O Expresso Polar (2004)",
         // "O Fabuloso Destino de Amélie Poulain (2001)",
         "O Fantasma da Ópera (2004)",
-        "O Filho de Deus (2014)",
+        // "O Filho de Deus (2014)",
         "O Físico (2013)",
         "O Gigante de Ferro (1999)",
         "O Incidente (2014)",
@@ -161,7 +161,7 @@ const geraFilme = () => {
         "Pequenos Invasores (2009)",
         "Perfect Blue (1997)",
         "Piratas do Vale do Sílicio (1999)",
-        "Planeta 51 (2009)",
+        // "Planeta 51 (2009)",
         "Pokémon - Detetive Pikachu (2019)",
         "Ponte para Terabítia (2007)",
         "Princesa Mononoke (1997)",
