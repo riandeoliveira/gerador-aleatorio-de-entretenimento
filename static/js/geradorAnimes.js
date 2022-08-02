@@ -2,7 +2,7 @@ const geraAnime = () => {
   const main = document.querySelector("main#conteudoPrincipal");
   const resposta = confirm("Você deseja GERAR um anime aleatório?");
 
-  // Animes: 15/187
+  // Animes: 14/187
 
   const animes = [
     "86: Eighty Six (2021)",
@@ -70,6 +70,7 @@ const geraAnime = () => {
     "Girlfriend Girlfriend (2021)",
     "Girls und Panzer (2012)",
     "Given (2020)",
+    "Gleipnir (2020)",
     "Golden Time (2013)",
     "Gotoubun no Hanayome (2019)",
     "Guilty Crown (2011)",
@@ -79,7 +80,7 @@ const geraAnime = () => {
     "Hige wo Soru (2021)",
     "High School DxD (2012)",
     "Himouto! Umaru-chan (2015)",
-    // "Hitori Bocchi no Marumaru Seikatsu (2013)",
+    "Hitori Bocchi no Marumaru Seikatsu (2013)",
     "Horimiya (2021)",
     "Hunter x Hunter (2011)",
     "Imouto Sae Ireba li (2017)",
