@@ -2,7 +2,7 @@ const geraAnime = () => {
   const main = document.querySelector("main#conteudoPrincipal");
   const resposta = confirm("Você deseja GERAR um anime aleatório?");
 
-  // Animes: 14/187
+  // Animes: 15/187
 
   const animes = [
     "86: Eighty Six (2021)",
@@ -136,7 +136,7 @@ const geraAnime = () => {
     "One Piece (1999)",
     "One Punch Man (2015)",
     "Orange (2016)",
-    "Oregairu (2013)",
+    // "Oregairu (2013)",
     "Os Cavaleiros do Zodíaco (1986)",
     "Ousama Ranking (2021)",
     // "Overlord (2015)",
