@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 32/200
+    // Filmes: 33/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -155,7 +155,7 @@ const geraFilme = () => {
         // "Os Oito Odiados (2015)",
         "Os Viajantes do Tempo (2001)",
         "País da Violência (2018)",
-        "Pânico na Neve (2010)",
+        // "Pânico na Neve (2010)",
         "ParaNorman (2012)",
         "Pequenos Guerreiros (1998)",
         "Pequenos Invasores (2009)",
