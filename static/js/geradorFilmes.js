@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 31/200
+    // Filmes: 32/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -199,7 +199,7 @@ const geraFilme = () => {
         "Um Sonho de Liberdade (1994)",
         "Uma Cavaleira em Camelot (1998)",
         // "Uma História de Amor e Fúria (2013)",
-        "Uma Lição de Amor (2001)",
+        // "Uma Lição de Amor (2001)",
         "Up - Altas Aventuras (2009)",
         "Valerian e a Cidade dos Mil Planetas (2017)",
         "Vanilla Sky (2001)",
