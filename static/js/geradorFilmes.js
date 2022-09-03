@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 33/200
+    // Filmes: 34/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -196,7 +196,7 @@ const geraFilme = () => {
         "Trilogia Matrix (1999)",
         "Turma da Mônica em Uma Aventura no Tempo (2007)",
         "Um Dia de Fúria (1993)",
-        "Um Sonho de Liberdade (1994)",
+        // "Um Sonho de Liberdade (1994)",
         "Uma Cavaleira em Camelot (1998)",
         // "Uma História de Amor e Fúria (2013)",
         // "Uma Lição de Amor (2001)",
