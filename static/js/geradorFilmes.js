@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 34/200
+    // Filmes: 35/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -189,7 +189,7 @@ const geraFilme = () => {
         "Singham (2011)",
         "Sonic - O Filme (2020)",
         "Spirit - O Corcel Indomável (2002)",
-        "Sunshine - Alerta Solar (2007)",
+        // "Sunshine - Alerta Solar (2007)",
         "Tom e Jerry - O Filme (1992)",
         "Tom e Jerry - Rumo a Marte (2005)",
         "Trilogia John Wick (2014)",
