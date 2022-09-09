@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 35/200
+    // Filmes: 36/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -22,7 +22,7 @@ const geraFilme = () => {
         "A Grande Ilusão (2006)",
         "A Lagoa Azul (1980)",
         "A Máquina do Tempo (2002)",
-        "A Menina que Roubava Livros (2013)",
+        // "A Menina que Roubava Livros (2013)",
         // "A Nação do Medo (1994)",
         // "A Noite é Delas (2017)",
         "A Outra Terra (2011)",
