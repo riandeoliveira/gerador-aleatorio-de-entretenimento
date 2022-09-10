@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 36/200
+    // Filmes: 37/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -141,7 +141,7 @@ const geraFilme = () => {
         "O Lugar Prometido em Nossa Juventude (2004)",
         // "O Novíssimo Testamento (2015)",
         // "O Pianista (2002)",
-        "O Preço do Amanhã (2011)",
+        // "O Preço do Amanhã (2011)",
         "O Primeiro Homem (2018)",
         "O Quinto Elemento (1997)",
         "O Reino dos Gatos (2002)",
