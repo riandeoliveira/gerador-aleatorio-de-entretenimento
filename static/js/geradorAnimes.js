@@ -2,7 +2,7 @@ const geraAnime = () => {
   const main = document.querySelector("main#conteudoPrincipal");
   const resposta = confirm("Você deseja GERAR um anime aleatório?");
 
-  // Animes: 16/187
+  // Animes: 17/187
 
   const animes = [
     "86: Eighty Six (2021)",
@@ -115,7 +115,7 @@ const geraAnime = () => {
     "Love Lab (2013)",
     "Love and Lies (2017)",
     "Love Live! School Idol Project (2013)",
-    "Mai-Otome (2005)",
+    // "Mai-Otome (2005)",
     "Majo no Tabitabi (2020)",
     // "Mawaru Penguindrum (2011)",
     "Michiko to Hatchin (2008)",
