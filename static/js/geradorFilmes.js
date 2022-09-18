@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 37/200
+    // Filmes: 38/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -120,7 +120,7 @@ const geraFilme = () => {
         "Meu Amigo Totoro (1988)",
         "Minority Report - A Nova Lei (2002)",
         "Monte Python em Busca do Cálice Sagrado (1975)",
-        "Nada de Novo no Front (1930)",
+        // "Nada de Novo no Front (1930)",
         "O Anticristo (2007)",
         "O Castelo Animado (2004)",
         "O Conde de Monte Cristo (2002)",
