@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 38/200
+    // Filmes: 39/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -17,7 +17,7 @@ const geraFilme = () => {
         "A Casa do Lago (2006)",
         // "A Chave Mágica (1995)",
         // "A Cinco Passos de Você (2019)",
-        "A Garota no Trem (2016)",
+        // "A Garota no Trem (2016)",
         "A Garota que Conquistou o Tempo (2016)",
         "A Grande Ilusão (2006)",
         "A Lagoa Azul (1980)",
