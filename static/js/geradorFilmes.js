@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 41/200
+    // Filmes: 42/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -36,7 +36,7 @@ const geraFilme = () => {
         // "A Vida é Bela (1997)",
         "A Vila (2004)",
         "A Voz do Silêncio - Koe no Katachi (2016)",
-        "Ace Ventura - Um Detetive Diferente (1994)",
+        // "Ace Ventura - Um Detetive Diferente (1994)",
         "Ad Astra - Rumo às Estrelas (2019)",
         "Adeus, Lenin! (2003)",
         "Akira (1991)",
