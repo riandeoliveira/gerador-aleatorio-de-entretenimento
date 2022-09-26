@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 43/200
+    // Filmes: 44/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -98,7 +98,7 @@ const geraFilme = () => {
         "Gantz - O (2016)",
         "Garfield - O Filme (2004)",
         "Garfield 2 (2006)",
-        "Garota Exemplar (2014)",
+        // "Garota Exemplar (2014)",
         "Garota Infernal (2009)",
         "Gênio Indomável (1997)",
         "Glória Feita de Sangue (1957)",
