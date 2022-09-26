@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 42/200
+    // Filmes: 43/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -48,7 +48,7 @@ const geraFilme = () => {
         "Assalto em Dose Dupla (2011)",
         "Asterix e Obelix - Live-actions (1999)",
         "Astro Boy (2009)",
-        "Bakemono no Ko (2015)",
+        // "Bakemono no Ko (2015)",
         "Beetlejuice - Os Fantasmas Se Divertem (1988)",
         "Blame! (2017)",
         "Bolt - Super Cão (2008)",
