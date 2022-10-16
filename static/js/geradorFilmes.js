@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 44/200
+    // Filmes: 45/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -106,7 +106,7 @@ const geraFilme = () => {
         "Jogos de Guerra (1983)",
         // "Jojo Rabbit (2019)",
         // "Kung-Fu Futebol Clube (2001)",
-        "Kung-Fusão (2004)",
+        // "Kung-Fusão (2004)",
         "Laranja Mecânica (1971)",
         // "Lembranças de Outra Vida (1995)",
         "Loucuras na Idade Média (2001)",
