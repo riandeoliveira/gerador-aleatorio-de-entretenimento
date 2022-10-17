@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 46/200
+    // Filmes: 47/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -112,7 +112,7 @@ const geraFilme = () => {
         "Loucuras na Idade Média (2001)",
         "Lucas - Um Intruso no Formigueiro (2006)",
         "Mamãe, Virei Um Peixe (2000)",
-        "Marte Ataca! (1996)",
+        // "Marte Ataca! (1996)",
         // "Mary e Max - Uma Amizade Diferente (2009)",
         "Matilda (1996)",
         "Metrópolis (1927)",
