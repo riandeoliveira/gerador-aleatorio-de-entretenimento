@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 48/200
+    // Filmes: 49/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -134,7 +134,7 @@ const geraFilme = () => {
         "O Fantasma da Ópera (2004)",
         // "O Filho de Deus (2014)",
         "O Físico (2013)",
-        "O Gigante de Ferro (1999)",
+        // "O Gigante de Ferro (1999)",
         "O Incidente (2014)",
         // "O Jogo da Imitação (2014)",
         "O Lobo de Wall Street (2013)",
