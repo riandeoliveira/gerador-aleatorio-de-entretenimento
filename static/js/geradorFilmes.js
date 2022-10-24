@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 49/200
+    // Filmes: 50/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -147,7 +147,7 @@ const geraFilme = () => {
         "O Reino dos Gatos (2002)",
         "O Segredo dos Animais (2006)",
         "O Senhor das Armas (2005)",
-        "O Sexto Sentido (1999)",
+        // "O Sexto Sentido (1999)",
         "O Som do Trovão (2005)",
         // "O Universo no Olhar (2014)",
         "O VelociPastor (2018)",
