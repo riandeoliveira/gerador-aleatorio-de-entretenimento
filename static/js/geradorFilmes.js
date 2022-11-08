@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 51/200
+    // Filmes: 53/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -150,8 +150,8 @@ const geraFilme = () => {
         // "O Sexto Sentido (1999)",
         "O Som do Trovão (2005)",
         // "O Universo no Olhar (2014)",
-        "O VelociPastor (2018)",
-        "Os Estagiários (2013)",
+        // "O VelociPastor (2018)",
+        // "Os Estagiários (2013)",
         // "Os Oito Odiados (2015)",
         "Os Viajantes do Tempo (2001)",
         "País da Violência (2018)",
