@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 53/200
+    // Filmes: 54/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -72,7 +72,7 @@ const geraFilme = () => {
         "Dogão - Amigo pra Cachorro (2006)",
         "Doonie Darko (2001)",
         "Drive (2011)",
-        "Duologia Baahubali (2015)",
+        // "Duologia Baahubali (2015)",
         "Duologia Espelhos do Medo (2008)",
         "Duologia Gente Grande (2010)",
         "Duologia Kill Bill (2003)",
