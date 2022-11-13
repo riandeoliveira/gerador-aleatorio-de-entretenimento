@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 54/200
+    // Filmes: 55/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -162,7 +162,7 @@ const geraFilme = () => {
         "Perfect Blue (1997)",
         "Piratas do Vale do Sílicio (1999)",
         // "Planeta 51 (2009)",
-        "Pokémon - Detetive Pikachu (2019)",
+        // "Pokémon - Detetive Pikachu (2019)",
         "Ponte para Terabítia (2007)",
         "Princesa Mononoke (1997)",
         "Psicopata Americano (2000)",
