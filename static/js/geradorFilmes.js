@@ -2,11 +2,11 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 56/200
+    // Filmes: 57/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
-        "500 Dias com Ela (2009)",
+        // "500 Dias com Ela (2009)",
         // "1492 - A Conquista do Paraíso (1992)",
         // "1917 (2019)",
         "2001 - Uma Odisseia no Espaço (1968)",
