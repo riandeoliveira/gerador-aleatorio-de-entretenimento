@@ -204,7 +204,7 @@ const geraFilme = () => {
         "Valerian e a Cidade dos Mil Planetas (2017)",
         "Vanilla Sky (2001)",
         "Vidas ao Vento (2013)",
-        "WIFI Ralph - Quebrando a Internet (2018)"
+//         "WIFI Ralph - Quebrando a Internet (2018)"
     ];
 
     if (resposta) {
