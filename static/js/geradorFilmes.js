@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 57/200
+    // Filmes: 58/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
