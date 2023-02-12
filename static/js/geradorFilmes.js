@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 58/200
+    // Filmes: 59/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -80,7 +80,7 @@ const geraFilme = () => {
         "Duologia Tron (1982)",
         "Duologia Tropa de Elite (2007)",
         "Duologia Truque de Mestre (2013)",
-        "Duologia Um Lugar Silencioso (2018)",
+        // "Duologia Um Lugar Silencioso (2018)",
         "Durante a Tormenta (2018)",
         "Efeito Borboleta (2004)",
         "Ela (2013)",
@@ -204,7 +204,7 @@ const geraFilme = () => {
         "Valerian e a Cidade dos Mil Planetas (2017)",
         "Vanilla Sky (2001)",
         "Vidas ao Vento (2013)",
-//         "WIFI Ralph - Quebrando a Internet (2018)"
+        // "WIFI Ralph - Quebrando a Internet (2018)"
     ];
 
     if (resposta) {
