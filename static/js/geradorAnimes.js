@@ -2,7 +2,7 @@ const geraAnime = () => {
   const main = document.querySelector("main#conteudoPrincipal");
   const resposta = confirm("Você deseja GERAR um anime aleatório?");
 
-  // Animes: 19/187
+  // Animes: 20/187
 
   const animes = [
     "86: Eighty Six (2021)",
@@ -10,7 +10,7 @@ const geraAnime = () => {
     "Accel World (2012)",
     // "Air (2005)",
     "Akudama Drive (2020)",
-    "Amagi Brilliant Park (2014)",
+    // "Amagi Brilliant Park (2014)",
     "Angel Beats! (2010)",
     "Ano Hana (2011)",
     "Another (2012)",
