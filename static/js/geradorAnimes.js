@@ -2,7 +2,7 @@ const geraAnime = () => {
   const main = document.querySelector("main#conteudoPrincipal");
   const resposta = confirm("Você deseja GERAR um anime aleatório?");
 
-  // Animes: 24/187
+  // Animes: 25/187
 
   const animes = [
     "86: Eighty Six (2021)",
@@ -16,7 +16,7 @@ const geraAnime = () => {
     "Another (2012)",
     // "Ao Haru Ride (2014)",
     // "Ao no Kanata no Four Rhythm (2016)",
-    "Araburu Kisetsu no Otome-domo yo (2019)",
+    // "Araburu Kisetsu no Otome-domo yo (2019)",
     "Attack on Titan (2013)",
     // "Ballroom e Youkoso (2017)",
     // "Beatless (2018)",
