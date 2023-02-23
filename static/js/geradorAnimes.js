@@ -2,7 +2,7 @@ const geraAnime = () => {
   const main = document.querySelector("main#conteudoPrincipal");
   const resposta = confirm("Você deseja GERAR um anime aleatório?");
 
-  // Animes: 28/187
+  // Animes: 30/187
 
   const animes = [
     "86: Eighty Six (2021)",
@@ -58,7 +58,7 @@ const geraAnime = () => {
     "Fairy Tail (2009)",
     "Fire Force (2019)",
     "Fooly Cooly (2000)",
-    "Free! (2013)",
+    // "Free! (2013)",
     "From the New World (2012)",
     "Fruits Basket (2019)",
     // "Fullmetal Alchemist (2003)",
@@ -71,7 +71,7 @@ const geraAnime = () => {
     "Girls und Panzer (2012)",
     "Given (2020)",
     "Gleipnir (2020)",
-    "Golden Time (2013)",
+    // "Golden Time (2013)",
     "Gotoubun no Hanayome (2019)",
     "Guilty Crown (2011)",
     "Haikyu!! (2014)",
