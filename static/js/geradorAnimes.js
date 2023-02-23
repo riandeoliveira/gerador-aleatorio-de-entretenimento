@@ -2,7 +2,7 @@ const geraAnime = () => {
   const main = document.querySelector("main#conteudoPrincipal");
   const resposta = confirm("Você deseja GERAR um anime aleatório?");
 
-  // Animes: 27/187
+  // Animes: 28/187
 
   const animes = [
     "86: Eighty Six (2021)",
@@ -51,7 +51,7 @@ const geraAnime = () => {
     // "Dororo (2019)",
     "Dr. Stone (2019)",
     "Dragon Ball (1986)",
-    "Dumbbell Nan Kilo Moteru (2019)",
+    // "Dumbbell Nan Kilo Moteru (2019)",
     "Enfen Lied (2004)",
     "Erased (2016)",
     "Ergo Proxy (2006)",
