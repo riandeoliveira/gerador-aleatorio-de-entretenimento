@@ -2,7 +2,7 @@ const geraAnime = () => {
   const main = document.querySelector("main#conteudoPrincipal");
   const resposta = confirm("Você deseja GERAR um anime aleatório?");
 
-  // Animes: 25/187
+  // Animes: 26/187
 
   const animes = [
     "86: Eighty Six (2021)",
@@ -31,7 +31,7 @@ const geraAnime = () => {
     // "Bokurano (2006)",
     "Btooom! (2012)",
     // "Burn The Witch (2020)",
-    "C: The Money Of Soul And Possibility Control (2011)",
+    // "C: The Money Of Soul And Possibility Control (2011)",
     // "Campione! (2012)",
     "Cells at Works (2020)",
     "Charlotte (2015)",
