@@ -2,7 +2,7 @@ const geraAnime = () => {
   const main = document.querySelector("main#conteudoPrincipal");
   const resposta = confirm("Você deseja GERAR um anime aleatório?");
 
-  // Animes: 26/187
+  // Animes: 27/187
 
   const animes = [
     "86: Eighty Six (2021)",
@@ -35,7 +35,7 @@ const geraAnime = () => {
     // "Campione! (2012)",
     "Cells at Works (2020)",
     "Charlotte (2015)",
-    "Chuunibyou Demo Koi ga Shitai! (2012)",
+    // "Chuunibyou Demo Koi ga Shitai! (2012)",
     "Citrus (2018)",
     // "Clannad (2007)",
     "Code Breaker (2012)",
