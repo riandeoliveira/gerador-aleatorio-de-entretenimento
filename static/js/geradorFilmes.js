@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 59/200
+    // Filmes: 60/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -37,7 +37,7 @@ const geraFilme = () => {
         "A Vila (2004)",
         "A Voz do Silêncio - Koe no Katachi (2016)",
         // "Ace Ventura - Um Detetive Diferente (1994)",
-        "Ad Astra - Rumo às Estrelas (2019)",
+        // "Ad Astra - Rumo às Estrelas (2019)",
         "Adeus, Lenin! (2003)",
         "Akira (1991)",
         "Altered Carbon - Nova Capa (2020)",
