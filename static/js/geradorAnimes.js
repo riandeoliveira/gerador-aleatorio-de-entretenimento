@@ -2,7 +2,7 @@ const geraAnime = () => {
   const main = document.querySelector("main#conteudoPrincipal");
   const resposta = confirm("Você deseja GERAR um anime aleatório?");
 
-  // Animes: 30/187
+  // Animes: 26/187
 
   const animes = [
     "86: Eighty Six (2021)",
@@ -28,7 +28,7 @@ const geraAnime = () => {
     "Blue Exorcist (2011)",
     "Boku no Hero Academia (2016)",
     // "Boku wa Tomodachi ga Sukunai (2010)",
-    // "Bokurano (2006)",
+    "Bokurano (2006)",
     "Btooom! (2012)",
     // "Burn The Witch (2020)",
     // "C: The Money Of Soul And Possibility Control (2011)",
@@ -51,14 +51,14 @@ const geraAnime = () => {
     // "Dororo (2019)",
     "Dr. Stone (2019)",
     "Dragon Ball (1986)",
-    // "Dumbbell Nan Kilo Moteru (2019)",
+    "Dumbbell Nan Kilo Moteru (2019)",
     "Enfen Lied (2004)",
     "Erased (2016)",
     "Ergo Proxy (2006)",
     "Fairy Tail (2009)",
     "Fire Force (2019)",
     "Fooly Cooly (2000)",
-    // "Free! (2013)",
+    "Free! (2013)",
     "From the New World (2012)",
     "Fruits Basket (2019)",
     // "Fullmetal Alchemist (2003)",
@@ -71,7 +71,7 @@ const geraAnime = () => {
     "Girls und Panzer (2012)",
     "Given (2020)",
     "Gleipnir (2020)",
-    // "Golden Time (2013)",
+    "Golden Time (2013)",
     "Gotoubun no Hanayome (2019)",
     "Guilty Crown (2011)",
     "Haikyu!! (2014)",
