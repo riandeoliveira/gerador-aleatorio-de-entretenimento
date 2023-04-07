@@ -2,7 +2,7 @@ const geraAnime = () => {
   const main = document.querySelector("main#conteudoPrincipal");
   const resposta = confirm("Você deseja GERAR um anime aleatório?");
 
-  // Animes: 35/187
+  // Animes: 40/187
 
   const animes = [
     "86: Eighty Six (2021)",
@@ -38,8 +38,8 @@ const geraAnime = () => {
     // "Chuunibyou Demo Koi ga Shitai! (2012)",
     "Citrus (2018)",
     // "Clannad (2007)",
-    "Code Breaker (2012)",
-    "Code Geass - Lelouch of the Rebellion (2006)",
+    // "Code Breaker (2012)",
+    // "Code Geass - Lelouch of the Rebellion (2006)",
     "Cowboy Bebop (1998)",
     "D-Frag! (2014)",
     "Darling in the Franxx (2018)",
@@ -52,9 +52,9 @@ const geraAnime = () => {
     "Dr. Stone (2019)",
     "Dragon Ball (1986)",
     // "Dumbbell Nan Kilo Moteru (2019)",
-    "Enfen Lied (2004)",
-    "Erased (2016)",
-    "Ergo Proxy (2006)",
+    // "Enfen Lied (2004)",
+    // "Erased (2016)",
+    // "Ergo Proxy (2006)",
     "Fairy Tail (2009)",
     "Fire Force (2019)",
     "Fooly Cooly (2000)",
