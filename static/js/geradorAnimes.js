@@ -2,7 +2,7 @@ const geraAnime = () => {
   const main = document.querySelector("main#conteudoPrincipal");
   const resposta = confirm("Você deseja GERAR um anime aleatório?");
 
-  // Animes: 30/187
+  // Animes: 35/187
 
   const animes = [
     "86: Eighty Six (2021)",
@@ -11,9 +11,9 @@ const geraAnime = () => {
     // "Air (2005)",
     "Akudama Drive (2020)",
     // "Amagi Brilliant Park (2014)",
-    "Angel Beats! (2010)",
-    "Ano Hana (2011)",
-    "Another (2012)",
+    // "Angel Beats! (2010)",
+    // "Ano Hana (2011)",
+    // "Another (2012)",
     // "Ao Haru Ride (2014)",
     // "Ao no Kanata no Four Rhythm (2016)",
     // "Araburu Kisetsu no Otome-domo yo (2019)",
@@ -22,14 +22,14 @@ const geraAnime = () => {
     // "Beatless (2018)",
     "Black Bullet (2014)",
     "Black Cover (2017)",
-    "Black Lagoon (2006)",
+    // "Black Lagoon (2006)",
     "Bleach (2004)",
     "Blend S (2017)",
     "Blue Exorcist (2011)",
     "Boku no Hero Academia (2016)",
     // "Boku wa Tomodachi ga Sukunai (2010)",
     // "Bokurano (2006)",
-    "Btooom! (2012)",
+    // "Btooom! (2012)",
     // "Burn The Witch (2020)",
     // "C: The Money Of Soul And Possibility Control (2011)",
     // "Campione! (2012)",
