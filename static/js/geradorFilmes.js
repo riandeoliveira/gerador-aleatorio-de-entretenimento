@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 62/200
+    // Filmes: 63/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -83,7 +83,7 @@ const geraFilme = () => {
         // "Duologia Um Lugar Silencioso (2018)",
         // "Durante a Tormenta (2018)",
         "Efeito Borboleta (2004)",
-        "Ela (2013)",
+        // "Ela (2013)",
         "Ela é Demais (1999)",
         "Elysium (2014)",
         "Em Algum Lugar do Passado (1980)",
