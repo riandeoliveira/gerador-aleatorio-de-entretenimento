@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 63/200
+    // Filmes: 70/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -12,7 +12,7 @@ const geraFilme = () => {
         "2001 - Uma Odisseia no Espaço (1968)",
         "2010 - O Ano Em Que Faremos Contato (1984)",
         // "2019 - O Ano da Extinção (2010)",
-        "A Autópsia (2017)",
+        // "A Autópsia (2017)",
         "A Cabana (2017)",
         // "A Casa do Lago (2006)",
         // "A Chave Mágica (1995)",
@@ -30,7 +30,7 @@ const geraFilme = () => {
         "A Queda! As Últimas Horas de Hitler (2004)",
         "A Senha - Swordfish (2001)",
         "A Serbian Film - Terror sem Limites (2010)",
-        "A Teoria do Caos (2008)",
+        // "A Teoria do Caos (2008)",
         // "A Vastidão da Noite (2019)",
         "A Viagem de Chihiro (2003)",
         // "A Vida é Bela (1997)",
@@ -42,7 +42,7 @@ const geraFilme = () => {
         "Akira (1991)",
         "Altered Carbon - Nova Capa (2020)",
         "Amor Sem Escalas (2009)",
-        "Apocalypto (2006)",
+        // "Apocalypto (2006)",
         "As Aventuras de Peabody & Sherman (2014)",
         "As Férias de Mr. Bean (2007)",
         "Assalto em Dose Dupla (2011)",
@@ -50,19 +50,19 @@ const geraFilme = () => {
         "Astro Boy (2009)",
         // "Bakemono no Ko (2015)",
         // "Beetlejuice - Os Fantasmas Se Divertem (1988)",
-        "Blame! (2017)",
+        // "Blame! (2017)",
         "Bolt - Super Cão (2008)",
         // "Brilho Eterno de uma Mente sem Lembranças (2004)",
         "Christine, O Carro Assassino (1983)",
-        "Cidadão Kane (1941)",
+        // "Cidadão Kane (1941)",
         "Cidade de Deus (2002)",
         // "Cinco Centímetros por Segundo (2007)",
         // "Clube da Luta (1999)",
         "Coherence (2014)",
         "Construindo uma Carreira (1991)",
-        "Coringa (2019)",
+        // "Coringa (2019)",
         "Curtindo a Vida Adoidado (1986)",
-        "Da Colina Kokuriko (2011)",
+        // "Da Colina Kokuriko (2011)",
         "De Olhos Bem Fechados (1999)",
         "De Repente Uma Família (2018)",
         "Deu a Louca em Hollywood (2007)",
