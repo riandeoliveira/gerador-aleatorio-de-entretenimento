@@ -2,15 +2,15 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 70/200
+    // Filmes: 73/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
         // "500 Dias com Ela (2009)",
         // "1492 - A Conquista do Paraíso (1992)",
         // "1917 (2019)",
-        "2001 - Uma Odisseia no Espaço (1968)",
-        "2010 - O Ano Em Que Faremos Contato (1984)",
+        // "2001 - Uma Odisseia no Espaço (1968)",
+        // "2010 - O Ano Em Que Faremos Contato (1984)",
         // "2019 - O Ano da Extinção (2010)",
         // "A Autópsia (2017)",
         "A Cabana (2017)",
@@ -201,7 +201,7 @@ const geraFilme = () => {
         // "Uma História de Amor e Fúria (2013)",
         // "Uma Lição de Amor (2001)",
         "Up - Altas Aventuras (2009)",
-        "Valerian e a Cidade dos Mil Planetas (2017)",
+        // "Valerian e a Cidade dos Mil Planetas (2017)",
         // "Vanilla Sky (2001)",
         "Vidas ao Vento (2013)",
         // "WIFI Ralph - Quebrando a Internet (2018)"
