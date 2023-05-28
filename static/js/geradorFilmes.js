@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 75/200
+    // Filmes: 80/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -137,14 +137,14 @@ const geraFilme = () => {
         // "O Gigante de Ferro (1999)",
         "O Incidente (2014)",
         // "O Jogo da Imitação (2014)",
-        "O Lobo de Wall Street (2013)",
+        // "O Lobo de Wall Street (2013)",
         "O Lugar Prometido em Nossa Juventude (2004)",
         // "O Novíssimo Testamento (2015)",
         // "O Pianista (2002)",
         // "O Preço do Amanhã (2011)",
         "O Primeiro Homem (2018)",
         "O Quinto Elemento (1997)",
-        "O Reino dos Gatos (2002)",
+        // "O Reino dos Gatos (2002)",
         "O Segredo dos Animais (2006)",
         "O Senhor das Armas (2005)",
         // "O Sexto Sentido (1999)",
@@ -159,12 +159,12 @@ const geraFilme = () => {
         "ParaNorman (2012)",
         "Pequenos Guerreiros (1998)",
         "Pequenos Invasores (2009)",
-        "Perfect Blue (1997)",
+        // "Perfect Blue (1997)",
         "Piratas do Vale do Sílicio (1999)",
         // "Planeta 51 (2009)",
         // "Pokémon - Detetive Pikachu (2019)",
         "Ponte para Terabítia (2007)",
-        "Princesa Mononoke (1997)",
+        // "Princesa Mononoke (1997)",
         "Psicopata Americano (2000)",
         "Pulp Fiction - Tempo de Violência (1994)",
         // "Réquiem para um Sonho (2000)",
@@ -187,7 +187,7 @@ const geraFilme = () => {
         "Sangue Negro (2007)",
         "Scooby-Doo! e o Rei dos Duendes (2008)",
         "Singham (2011)",
-        "Sonic - O Filme (2020)",
+        // "Sonic - O Filme (2020)",
         "Spirit - O Corcel Indomável (2002)",
         // "Sunshine - Alerta Solar (2007)",
         "Tom e Jerry - O Filme (1992)",
