@@ -2,7 +2,7 @@ const geraFilme = () => {
     const main = document.querySelector("main#conteudoPrincipal");
     const resposta = confirm("Você deseja GERAR um filme aleatório?");
     
-    // Filmes: 80/200
+    // Filmes: 81/200
 
     const filmes = [
         // "12 Anos de Escravidão (2014)",
@@ -184,7 +184,7 @@ const geraFilme = () => {
         "Saga Rocky (1976)",
         "Saga Star Wars (1977)",
         "Saga Velozes e Furiosos (2001)",
-        "Sangue Negro (2007)",
+        // "Sangue Negro (2007)",
         "Scooby-Doo! e o Rei dos Duendes (2008)",
         "Singham (2011)",
         // "Sonic - O Filme (2020)",
