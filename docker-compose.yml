@@ -1,0 +1,10 @@
+services:
+    gerador-aleatorio-de-entretenimento:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: gerador-aleatorio-de-entretenimento:latest
+        container_name: gerador-aleatorio-de-entretenimento
+        restart: unless-stopped
+        ports:
+            - "5050:8080"

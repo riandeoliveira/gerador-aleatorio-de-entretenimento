@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-s-1440: 90rem; /* 1440px */
+  --breakpoint-s-1320: 82.5rem; /* 1320px */
+  --breakpoint-s-1200: 75rem; /* 1200px */
+  --breakpoint-s-1080: 67.5rem; /* 1080px */
+  --breakpoint-s-960: 60rem; /* 960px */
+  --breakpoint-s-840: 52.5rem; /* 840px */
+  --breakpoint-s-720: 45rem; /* 720px */
+  --breakpoint-s-600: 37.5rem; /* 600px */
+  --breakpoint-s-480: 30rem; /* 480px */
+  --breakpoint-s-360: 22.5rem; /* 360px */
+}
+
+body {
+  @apply bg-zinc-950 text-white bg-[url('/src/assets/images/background-img.png')] bg-right bg-fixed bg-no-repeat bg-contain max-s-1320:bg-cover max-s-840:bg-cover max-s-840:bg-center;
+}
+
+@layer utilities {
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade-out {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  @keyframes grow {
+    from {
+      scale: 0;
+    }
+    to {
+      scale: 1;
+    }
+  }
+
+  @keyframes rotate-primary {
+    from {
+      rotate: y 0deg;
+    }
+    to {
+      rotate: y 180deg;
+    }
+  }
+
+  @keyframes rotate-secondary {
+    from {
+      rotate: y 180deg;
+    }
+    to {
+      rotate: y 0deg;
+    }
+  }
+
+  @keyframes slide-in-down {
+    from {
+      translate: 0 -80px;
+    }
+    to {
+      translate: 0px;
+    }
+  }
+
+  @keyframes toggle-primary {
+    from {
+      z-index: 50;
+    }
+    to {
+      z-index: 0;
+    }
+  }
+
+  @keyframes toggle-secondary {
+    from {
+      z-index: 0;
+    }
+    to {
+      z-index: 50;
+    }
+  }
+
+  .animate-fade-in {
+    animation: fade-in 1s forwards;
+  }
+
+  .animate-fade-out {
+    animation: fade-out 1s forwards;
+  }
+
+  .animate-grow {
+    animation: grow 1s forwards;
+  }
+
+  .animate-rotate-primary {
+    animation: rotate-primary 2s forwards;
+  }
+
+  .animate-rotate-secondary {
+    animation: rotate-secondary 2s forwards;
+  }
+
+  .animate-slide-in-down {
+    animation: slide-in-down 1s forwards;
+  }
+
+  .animate-toggle-primary {
+    animation: toggle-primary 1.2s forwards;
+  }
+
+  .animate-toggle-secondary {
+    animation: toggle-secondary 3.5s forwards;
+  }
+}

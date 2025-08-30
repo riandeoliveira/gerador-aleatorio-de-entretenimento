@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "biomejs.biome",
+    "bradlc.vscode-tailwindcss",
+    "docker.docker",
+    "eamodio.gitlens",
+    "fill-labs.dependi",
+    "ms-azuretools.vscode-docker",
+    "naumovs.color-highlight",
+    "wix.vscode-import-cost"
+  ]
+}

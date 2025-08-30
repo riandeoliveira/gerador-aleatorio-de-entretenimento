@@ -1,0 +1,22 @@
+{
+  //
+  // Color Highlight (Extension)
+  //
+  "color-highlight.matchWords": true,
+
+  //
+  // Diff Editor
+  //
+  "diffEditor.ignoreTrimWhitespace": true,
+  //
+  // Editor
+  //
+  "editor.codeActionsOnSave": {
+    "source.fixAll.biome": "explicit",
+    "source.organizeImports.biome": "explicit",
+    "source.removeUnusedImports": "explicit"
+  },
+  "editor.defaultFormatter": "biomejs.biome",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2
+}

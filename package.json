@@ -1,0 +1,38 @@
+{
+  "name": "gerador-aleatorio-de-entretenimento",
+  "private": true,
+  "version": "3.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b && vite build",
+    "check": "biome check --write",
+    "dev": "vite",
+    "lint": "eslint . --ext .ts,.tsx --fix",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.8",
+    "axios": "^1.9.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.539.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hot-toast": "^2.6.0",
+    "react-router": "^7.6.1",
+    "tailwind-merge": "^3.3.0",
+    "tailwindcss": "^4.1.8",
+    "vite-plugin-svgr": "^4.3.0",
+    "zustand": "^5.0.5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.1.4",
+    "@types/node": "^24.2.1",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react-swc": "^3.9.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  }
+}

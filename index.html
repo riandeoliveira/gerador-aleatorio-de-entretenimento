@@ -1,45 +1,16 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador Aleatório de Entretenimento</title>
-    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="static/css/index.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerador Aleatório de Entretenimento</title>
+  <link rel="icon" type="image/png" href="./favicon.png" />
 </head>
+
 <body>
-    <header>
-        <div class="container-titulo">
-            <img src="images/index/logoGAE.png" alt="Logo do GAE" class="logo">
-            <h1 class="site-titulo">Gerador Aleatório de Entretenimento</h1>
-        </div>
-        <p class="site-subtitulo">Deixe o destino decidir o que você verá a seguir</p>
-    </header>
-    <nav>
-        <a href="#" rel="internal" class="nav-links">Home</a>
-        <a href="#" rel="internal" class="nav-links">Sobre</a>
-        <a href="#" rel="internal" class="nav-links">Curiosidade</a>
-        <a href="#" rel="internal" class="nav-links">Autor</a>
-    </nav>
-    <main>
-        <section>
-            <img src="images/index/series.jpg" alt="Battlestar Galactica">
-            <a href="pags/series.html" rel="next" target="_self" class="links-geradores" title="Ir para o Gerador de Séries">SÉRIES</a>
-        </section>
-        <section>
-            <img src="images/index/animes.jpg" alt="Death Note">
-            <a href="pags/animes.html" rel="next" target="_self" class="links-geradores" title="Ir para o Gerador de Animes">ANIMES</a>
-        </section>
-        <section>
-            <img src="images/index/filmes.jpg" alt="Vingadores Ultimato">
-            <a href="pags/filmes.html" rel="next" target="_self" class="links-geradores" title="Ir para o Gerador de Filmes">FILMES</a>
-        </section>
-    </main>
-    <footer>
-        <p class="footer-paragrafo">Desenvolvido por
-            <a href="https://github.com/riandeoliveira" rel="external" target="_blank" class="link-externo">Rian Oliveira</a>
-        </p>
-    </footer>
+  <div id="root"></div>
+  <script type="module" src="./src/main.tsx"></script>
 </body>
+
 </html>
