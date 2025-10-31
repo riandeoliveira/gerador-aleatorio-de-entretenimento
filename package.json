@@ -1,7 +1,7 @@
 {
   "name": "gerador-aleatorio-de-entretenimento",
-  "private": true,
   "version": "3.0.1",
+  "private": true,
   "type": "module",
   "scripts": {
     "build": "tsc -b && vite build",
